@@ -1,0 +1,38 @@
+/* 1. Tailwind Import */
+@import "tailwindcss";
+
+/* 2. Google Fonts Import */
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap'); */
+
+/* 3. Custom CSS */
+/* :root {
+  --primary: #0A84FF;
+  --accent: #D65A8C;
+  --navy: #001F3F;
+} */
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #ffffff 0%, #f7fbff 100%);
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, var(--primary), var(--accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.8), rgba(255,255,255,0.6));
+  border: 1px solid rgba(10,132,255,0.06);
+  box-shadow: 0 8px 24px rgba(10,132,255,0.06);
+  border-radius: 12px;
+}
